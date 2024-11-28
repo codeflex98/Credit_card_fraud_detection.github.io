@@ -82,7 +82,11 @@ This project focuses on detecting fraudulent credit card transactions using mach
 - **Tools:** Jupyter Notebook
 
 ---
+## Licenses Used
 
+- **Lisence name** MIT Lisence
+
+---
 ## Future Work
 
 - Implement more complex models like Random Forest, Gradient Boosting, or Neural Networks for improved accuracy.
