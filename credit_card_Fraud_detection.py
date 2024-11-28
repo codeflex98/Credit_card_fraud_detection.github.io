@@ -55,6 +55,6 @@ if st.sidebar.button("Predict"):
 
     # Display results
     if prediction == 0:
-        st.success(f"The transaction is predicted to be Non-Fraudulent with a probability of {prediction_proba[0]:.2f}.")
+        st.success(f"The transaction is predicted to be Non-Fraudulent as prediction value is {prediction_proba[0]:.2f}.")
     else:
-        st.error(f"The transaction is predicted to be Fraudulent with a probability of {prediction_proba[1]:.2f}.")
+        st.error(f"The transaction is predicted to be Fraudulent as prediction value is {prediction_proba[1]:.2f}.")
