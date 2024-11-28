@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import os
 import joblib
+import base64
 
 # Load the trained model
 model_path = os.path.join(os.path.dirname(__file__), 'credit_card_Fraud_detection_model')
@@ -58,3 +59,6 @@ if st.sidebar.button("Predict"):
         st.success(f"The transaction is  Non-Fraudulent")
     else:
         st.error(f"The transaction is  Fraudulent")
+        
+# gif from URL
+st.markdown("![Alt Text](https://media1.tenor.com/m/n8DB4bmpduIAAAAd/yeah-bwoi-grin.gif)")
