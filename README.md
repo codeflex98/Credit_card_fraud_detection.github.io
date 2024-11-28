@@ -18,9 +18,11 @@ This project focuses on detecting fraudulent credit card transactions using mach
 4. [Data Sources](#data-sources)
 5. [Methodology](#methodology)
 6. [Results and Insights](#results-and-insights)
-7. [Technologies Used](#technologies-used)
-8. [Future Work](#future-work)
-9. [Contact Information](#contact-information)
+7. [Buisness questions](#Buisness-questions-and-answers)
+8. [Technologies Used](#technologies-used)
+9. [Lisences](#Lisence-used)
+10. [Future Work](#future-work)
+11. [Contact Information](#contact-information)
 
 ---
 
@@ -74,7 +76,36 @@ This project focuses on detecting fraudulent credit card transactions using mach
 - Fraudulent transactions show distinct patterns in certain features, aiding in detection.
 
 ---
+## Buisness Questions
 
+#### 1. Can Fraud Prediction Models Support Personalized Risk-Based Pricing Strategies for Customers Based on Transaction Behavior?
+
+Fraud prediction models, particularly those built using machine learning techniques, can effectively classify and score transactions based on features extracted from historical data, including spending patterns and anomalies (Lakshmi and Kavila, 2018). These risk probabilities or scores can be leveraged in pricing strategies, as follows:
+
+- **Risk-Based Pricing**: Customers identified as high-risk by the model could face adjusted rates reflecting the increased potential for fraud. 
+- **Practicality of Logistic Regression**: Logistic Regression, with its ability to interpret risk probabilities, serves as a practical tool for integrating fraud detection into personalized financial offerings.
+
+---
+
+#### 2. Are There Ways to Integrate Fraud Prevention with Marketing Analytics to Identify Loyal Customers and Cross-Sell Premium Services While Maintaining Security?
+
+Fraud detection models can be strategically integrated with marketing analytics to achieve dual objectives: improving customer experience and maintaining robust security. Possible approaches include:
+
+- **Identifying Loyal Customers**: By analyzing transaction frequency and consistency, fraud detection models can flag customers exhibiting stable and trustworthy behavior as loyal.
+- **Cross-Selling Opportunities**: Low-risk customers making frequent high-value transactions, such as travel bookings, can be targeted with personalized offers, such as travel benefits or premium concierge services.
+- **Value-Added Security**: Positioning fraud prevention as a value-added service to reinforce customer trust while delivering tailored marketing initiatives.
+
+---
+
+#### 3. Can the Insights and Models Developed for Internal Fraud Detection Be Monetized by Offering Fraud Prevention Solutions to Other Businesses?
+
+Yes, the insights and models developed for internal fraud detection can be monetized by repurposing them as commercial solutions. Potential monetization strategies include:
+
+- **API Development**: Fraud detection systems can be repackaged into APIs for other companies to integrate into their platforms.
+- **Software Licensing**: Companies can sell or license their fraud prevention technologies to businesses across various industries, transforming internal tools into revenue-generating assets.
+- **Cross-Industry Applications**: The same models can be customized for industries beyond financial services, including e-commerce, travel, and insurance, thereby expanding their market potential.
+
+---
 ## Technologies Used
 
 - **Languages:** Python
