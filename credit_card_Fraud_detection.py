@@ -57,7 +57,9 @@ if st.sidebar.button("Predict"):
     # Display results
     if prediction == 0:
         st.success(f"The transaction is  Non-Fraudulent")
-        st.markdown("![Alt Text](https://media1.tenor.com/m/n8DB4bmpduIAAAAd/yeah-bwoi-grin.gif)")
+        gif_url_1 = "https://media1.tenor.com/m/n8DB4bmpduIAAAAd/yeah-bwoi-grin.gif"
+        st.markdown(f'<img src="{gif_url_1}" width="300" height="200">', unsafe_allow_html=True)
     else:
         st.error(f"The transaction is  Fraudulent")
-        st.markdown("![Alt Text](https://media.tenor.com/9kVFrGqvcwsAAAAM/fraud-troll.gif)")
+        gif_url_1 = "https://media.tenor.com/9kVFrGqvcwsAAAAM/fraud-troll.gif"
+        st.markdown(f'<img src="{gif_url_1}" width="300" height="200">', unsafe_allow_html=True)
