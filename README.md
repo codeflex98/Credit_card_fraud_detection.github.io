@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection Project
 
-### By: Manvanth Sundareshan
+##### By: Manvanth Sundareshan
 
 ---
 
