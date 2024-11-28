@@ -5,6 +5,22 @@ import os
 import joblib
 import base64
 
+# Custom CSS to add a GIF as background
+gif_url = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmx0MHIyazVkdHNvdGt3MGZya2lxNW40a3QydnU2dWE0azc5ZjB1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A06UFEx8jxEwU/giphy.gif"  # Replace with your GIF URL
+custom_css = f"""
+<style>
+body {{
+    background-image: url("{gif_url}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}}
+</style>
+"""
+
+# Embed the CSS
+st.markdown(custom_css, unsafe_allow_html=True)
+
 # Load the trained model
 model_path = os.path.join(os.path.dirname(__file__), 'credit_card_Fraud_detection_model')
 model = joblib.load(model_path)
