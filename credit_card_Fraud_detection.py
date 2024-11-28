@@ -6,7 +6,7 @@ import joblib
 import base64
 
 # Custom CSS to add a GIF as background
-gif_url = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmx0MHIyazVkdHNvdGt3MGZya2lxNW40a3QydnU2dWE0azc5ZjB1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A06UFEx8jxEwU/giphy.gif"  # Replace with your GIF URL
+gif_url = "hhttps://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmx0MHIyazVkdHNvdGt3MGZya2lxNW40a3QydnU2dWE0azc5ZjB1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A06UFEx8jxEwU/giphy.webp"  # Replace with your GIF URL
 custom_css = f"""
 <style>
 body {{
