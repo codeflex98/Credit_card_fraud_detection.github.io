@@ -42,7 +42,7 @@ p25 = st.number_input("V25",min_value=-5.0, max_value=5.0, format="%0.4f")
 p26 = st.number_input("V26",min_value=-5.0, max_value=5.0, format="%0.4f")
 p27 = st.number_input("V27",min_value=-5.0, max_value=5.0, format="%0.4f")
 p28 = st.number_input("V28",min_value=-5.0, max_value=5.0, format="%0.4f")
-p29 = st.number_input("Amount",min_value=0, max_value=100000)
+p29 = st.number_input("Amount",min_value=0.0, max_value=100000.0)
 
 # Debugging statements
 #print(f"Inputs: {p1}, {p2}, {p3}, {p4}, {p5.0}, {p6}, {p7}, {p8}, {p9}, {p10}, {p11}, {p12} {p13}, {p14}, {p15}")
@@ -58,8 +58,8 @@ if st.sidebar.button("Predict"):
     if prediction == 0:
         st.success(f"The transaction is  Non-Fraudulent")
         gif_url_1 = "https://media1.tenor.com/m/n8DB4bmpduIAAAAd/yeah-bwoi-grin.gif"
-        st.markdown(f'<img src="{gif_url_1}" width="800" height="700">', unsafe_allow_html=True)
+        st.markdown(f'<img src="{gif_url_1}" width="600" height="400">', unsafe_allow_html=True)
     else:
         st.error(f"The transaction is  Fraudulent")
         gif_url_1 = "https://media.tenor.com/9kVFrGqvcwsAAAAM/fraud-troll.gif"
-        st.markdown(f'<img src="{gif_url_1}" width="800" height="700">', unsafe_allow_html=True)
+        st.markdown(f'<img src="{gif_url_1}" width="600" height="400">', unsafe_allow_html=True)
