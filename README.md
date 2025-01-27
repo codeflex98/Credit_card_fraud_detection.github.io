@@ -135,7 +135,3 @@ For questions, suggestions, or collaboration opportunities, please contact:
 - **Email:** sundareshan.manvanth@stud.hs-fresenius.de
 - **GitHub:** (https://github.com/codeflex98)
 - **Steamlit URL for running this app:** https://creditcardfrauddetectionappio-ypke7mxdwvih4dfm6uxknn.streamlit.app/
----
-```
-
-You can copy and paste this directly into a `README.md` file for your project. Let me know if you'd like further assistance!
