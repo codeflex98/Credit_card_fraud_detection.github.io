@@ -124,7 +124,7 @@ This project focuses on detecting fraudulent credit card transactions using mach
 ---
 ## References
 
-- •	Lakshmi, S. V. S. S., & Kavila, S. D. (2018). Machine Learning for Credit Card Fraud Detection System. International Journal of Applied Engineering Research, 13(24), pp. 16819–16824.
+- 	Lakshmi, S. V. S. S., & Kavila, S. D. (2018). Machine Learning for Credit Card Fraud Detection System. International Journal of Applied Engineering Research, 13(24), pp. 16819–16824.
 
 ---
 ## Contact Information
