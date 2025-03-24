@@ -2,8 +2,6 @@
 
 ##### By: Manvanth Sundareshan
 
----
-
 ## Project Description
 
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques. The aim is to identify patterns within transactional data that distinguish between legitimate and fraudulent activities. A systematic approach is taken, starting with data exploration, visualization, and preprocessing, followed by model training and evaluation.
